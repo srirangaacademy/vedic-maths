@@ -1,0 +1,46 @@
+{
+  "_id": {"$oid": "..."},
+  "tenantId": "SRA",
+  "title": "Speed Addition (2 digits)",
+  "description": "Use the fastest method to solve the problem and verify your answers with digit sum",
+  "items": [
+    {"questionId" : 101},
+    {"questionId" : 234}
+  ],
+  "gameTemplateId": "GAME:FAST_ADD_2D",
+  "tags": ["TAG:ADDITION"],
+  "timeLimitSec": 120,
+  "visibility": "PUBLIC|PRIVATE",
+  "status": "PUBLISHED"
+}
+{ tenantId: 1, status: 1 }, { tags: 1 }
+
+{
+  "_id": {"$oid": "..."},
+  "tenantId": "SRA",
+  "type": "MCQ", 
+  "q": "25+37=?", 
+  "options": ["52","62","63","64"], 
+  "ans": 62, 
+  "description": "Use the fastest method to solve the problem and verify your answers with digit sum",
+  "tags": ["TAG:ADDITION"],
+  "topics": ["ADDITION","MENTAL-ADDITION","COMPLETION-AND-DEFECIENCY"],
+  "timeLimitSec": 10,
+  "visibility": "PUBLIC|PRIVATE",
+  "status": "PUBLISHED"
+}
+{ tenantId: 1, status: 1 }, { tags: 1 }, {topics: 1}
+{
+  "_id": {"$oid": "..."},
+  "tenantId": "SRA",
+  "type": "FILL", 
+  "q": "Nikhilam of 1000-997?", 
+  "ans": "003",
+  "description": "Use the fastest method to solve the problem and verify your answers with digit sum",
+  "tags": ["TAG:SUBTRACTION"],
+  "topics": ["SUBTRACTION","NIKHILAM"],
+  "timeLimitSec": 5,
+  "visibility": "PUBLIC|PRIVATE",
+  "status": "PUBLISHED"
+}
+{ tenantId: 1, status: 1 }, { tags: 1 }, {topics: 1}
